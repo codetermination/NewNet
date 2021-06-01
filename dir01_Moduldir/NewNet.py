@@ -1,7 +1,7 @@
 # Import the important modules
 from keras.models import Model
 from keras.models import save_model, load_model
-from keras.utils import plot_model
+from tensorflow.keras.utils import plot_model
 from keras.layers import Input
 from keras.layers import Conv2D, Dense, Cropping2D, concatenate
 from keras.layers.convolutional import Conv2DTranspose
