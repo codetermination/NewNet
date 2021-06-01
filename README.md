@@ -86,4 +86,4 @@ To train a new model, execute the following code in the project directory:
 ```python
 python3 RunNewNet.py -t True
 ```
-Yout model will be saved with the current date and time. 
+Yout model will be saved with the current date and time. The dataset can be changed in settings.py.
