@@ -21,7 +21,6 @@ In the project directory:
 dir01_moduldir: 
 
 * Newnet.py: Code for the model
-
 * constants.py: Hyperparameter
 
 
@@ -43,8 +42,8 @@ dir05_CSV:
 
 dir06_Calculations: 
 
-* CalculatePSNR.py: File to calculate PSNR for a predicted dataset and an original dataset
-* CalculateSSIM.py: File to calculate SSIM for a predicted dataset and an original dataset 
+* CalculatePSNR.py: File to calculate peak-signal-to-noise-ratio (PSNR) for a predicted dataset and an original dataset
+* CalculateSSIM.py: File to calculate structural similarty (SSIM) for a predicted dataset and an original dataset 
 
 
 # Test the model
