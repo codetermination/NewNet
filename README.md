@@ -4,8 +4,14 @@ The model is trained on images augmented by 3 differenty fence types.
 There are three datasets: 
 
 1.) Simply augmented images ("NoBlur")
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/77172165/120307943-d7d6d200-c2d3-11eb-83ce-9eedc62fb21d.jpg" height="150"> <img src="https://user-images.githubusercontent.com/77172165/120308531-7cf1aa80-c2d4-11eb-9fea-3294ac3fd574.jpg" height = "150"> <img src="https://user-images.githubusercontent.com/77172165/120308728-b3c7c080-c2d4-11eb-9e41-e1ccb566c3b4.jpg" height ="150">
+
 
 2.) Small blur of the fence border ("SingleBlur")
+<p align="center">  
+ <ing src=
+  
 
 3.) Strong blur of the fence border ("DoubleBlur")
 
@@ -14,6 +20,7 @@ All images are from https://pix-zip.herokuapp.com. Each of the datasets is split
 # Directory structure
 
 In the project directory: 
+
 
 * RunNewNet.py: File to train or test a model (Command see below)
 * settings.py: Hyperparameter for training
@@ -61,3 +68,4 @@ To train a new model, execute the following code in the project directory:
 ```python
 python3 RunNewNet.py -t True
 ```
+Yout model will be saved with the current date and time. 
