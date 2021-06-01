@@ -1,4 +1,4 @@
-## U-Net-in-Keras
+# U-Net-in-Keras
 Implementation of the U-Net-Model in Keras and Tensorflow.
 The model is trained on images augmented by 3 differenty fence types. 
 
@@ -22,7 +22,7 @@ There are three datasets:
 
 All images are taken from https://pix-zip.herokuapp.com. Each of the datasets is split into test and train. 
 
-# Directory structure
+## Directory structure
 
 In the project directory: 
 
