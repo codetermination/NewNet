@@ -1,5 +1,5 @@
 # U-Net-in-Keras
-Implementation of the U-Net-Model in Keras and Tensorflow.
+Implementation of the U-Net-Model<sup>1</sup> in Keras and Tensorflow.
 The model is trained on images augmented by 3 differenty fence types. 
 
 ## Datasets
@@ -86,4 +86,6 @@ To train a new model, execute the following code in the project directory:
 ```python
 python3 RunNewNet.py -t True
 ```
-Yout model will be saved with the current date and time. The dataset can be changed in settings.py.
+Your model will be saved with the current date and time. The dataset can be changed in settings.py.
+  
+[1] Ronneberger, O. et al: <a href="https://arxiv.org/abs/1505.04597">U-Net: Convolutional Networks for Biomedical Image Segmentation</a>, 2015
